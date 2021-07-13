@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Vijay's Portfolio">
+    <meta property="og:description" content="Hi,I'm Vijay a Front-End web developer. I am studying at VHNSNC College">
+    <meta property="og:image" content="./images/Screenshot (89).png">
+    <meta property="og:url" content="http://euro-travel-example.com/index.htm">
+    <title>My Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" >    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./Styles/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Arvo&family=Inter&family=Montserrat:wght@400;700;900&family=Poppins:wght@400;700&family=Ubuntu&family=Zen+Dots&family=Zilla+Slab&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header id="top">
+        <div class="container-fluid">
+            <div class="nav-bar">
+                <div class="logo">
+                    <i class="fab fa-pinterest-p"></i><label>ortfolio</label>
+                </div>
+                <div id="open" onclick="show()">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <div class="navlink" id="navbars">
+                    <i onclick="hide()" class="fas fa-times"></i>
+                    <a href="index.html" class="active" onclick="move()">Home</a>
+                    <a href="#project" onclick="move()">Works</a>
+                    <a href="#skill" onclick="move()">Skills</a>
+                    <a href="#footer" onclick="move()">Contact us</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 content">
+                    <img src="./images/illustration-box-desktop.svg" alt="">
+                    <h2>Hi I'm <span>Vijay</span>,</h2>
+                    <h1>A <span>Front-End</span> Web Developer</h1>
+                    <button id="explore"><a href="#project">Explore</a></button>
+                </div>
+                <div class="col-lg-6 img">
+                    <img src="images/illustration-working.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
+    <section id="project">
+        <div class="container-fluid ">
+            <h1>My Works</h1>
+            <h3>Check out my Projects</h3>
+            <div class="row ">
+                <div class="col-lg-6">
+                    <div class="cards">   
+                        <img src="./images/Screenshot (81).png" alt="Tindog">
+                        <div class="div">
+                            <h3>Tindog</h3>
+                            <a href="https://gokuvijay.github.io/tinndog.html/" target="_blank" >View Page</a>
+                        </div>                
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="cards">
+                        <img src="./images/Screenshot (83).png" alt="My First Webpage">
+                        <div class="div">
+                            <h3>My First Webpage</h3>
+                            <a href="https://gokuvijay.github.io/first.html/" target="_blank">View Page</a>
+                        </div>                
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="cards">
+                        <img src="./images/Screenshot (88).png" alt="Quiz App">
+                        <div class="div">
+                            <h3>Quiz App</h3>
+                            <a href="https://gokuvijay.github.io/quiz.html/" target="_blank">View Page</a>
+                        </div>                
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="cards">
+                        <img src="./images/Screenshot (89).png" alt="Movie App using API">
+                        <div class="div">
+                            <h3>Movie App using API</h3>
+                            <a href="https://gokuvijay.github.io/moviez.html/" target="_blank">View Page</a>
+                        </div>                
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="skill">
+        <div class="container-fluid">
+            <h1><i class="fas fa-code"></i>My skills</h1>
+            <h3>Programming languages and Libraries I'm currently working.</h3>
+            <div class="row">
+                <div class="col-lg-3 col-6">
+                    <div class="lang">
+                        <img src="images/5847f5c3cef1014c0b5e489d.png" alt="">
+                        <h4>HTML5</h4>
+                        <h6>My Level: ⭐⭐⭐⭐⭐</h6>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6">
+                    <div class="lang">
+                        <img src="./images/kisspng-web-development-cascading-style-sheets-css3-html-5ae480845f38f3.0110241015249245483901.png" alt="">
+                        <h4>CSS3</h4>
+                        <h6>My Level: ⭐⭐⭐⭐</h6>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6">
+                    <div class="lang">
+                        <img src="images/kisspng-javascript-node-js-logo-computer-programming-progr-5af871b4adf622.1971784815262314767126.png" alt="">
+                        <h4>JAVASCRIPT</h4>
+                        <h6>My Level: ⭐⭐⭐</h6>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6">
+                    <div class="lang">
+                        <img src="./images/kisspng-react-javascript-angularjs-ionic-atom-5b154be6947457.3471941815281223426081.png" alt="">
+                        <h4>React JS</h4>
+                        <h6>My Level: ⭐⭐⭐</h6>
+                    </div>
+                </div>
+
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-3 col-6">
+                    <div class="lang">
+                        <img src="./images/kisspng-responsive-web-design-bootstrap-sass-cascading-sty-framework-5acb894bc4c191.9841223815232883958059.png" alt="">
+                        <h4>Bootstrap 5</h4>
+                        <h6>My Level: ⭐⭐⭐⭐</h6>
+                    </div>
+                </div>                
+                <div class="col-lg-3 col-6">
+                    <div class="lang">
+                        <img src="./images/pngfind.com-circled-png-5508781.png" alt="">
+                        <h4>Git &  Github </h4>
+                        <h6>My Level: ⭐⭐⭐</h6>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6">
+                    <div class="lang">
+                        <img src="./images/kisspng-responsive-web-design-sass-cascading-style-sheets-framework-5aceb5887fa3e2.5482162815234963285228.png" alt="">
+                        <h4>SASS</h4>
+                        <h6>My Level: ⭐⭐⭐⭐</h6>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6">
+                    <div class="lang">
+                        <img style="height: 100%;" src="./images/kisspng-ajax-web-development-jquery-javascript-form-5ae58652ce64e9.1535520315249915708454.png" alt="">
+                        <h4>JQuery</h4>
+                        <h6>My Level: ⭐⭐⭐</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="faq">
+        <div class="container-fluid">
+            <h1>FAQ </h1>
+            <div class="contain">
+                <div class="question">
+                    <h4> <strong>Question:</strong> Which code Editor do you prefer ?</h4>
+                    <i class="fas fa-chevron-down" ></i>
+                </div>
+                <div class="answer">
+                    <h5> <strong>Answer:</strong> I prefer VS Code, it's easy to use for beginners.</h5>
+                </div>  
+            </div>
+            <div class="contain">
+                <div class="question">
+                    <h4> <strong>Question:</strong> Which framework/library is best react or Angular?</h4>
+                    <i class="fas fa-chevron-down" ></i>
+                </div>
+                <div class="answer">
+                    <h5> <strong>Answer:</strong> React is far better than angular , it's a light weight component.</h5>
+                </div>  
+            </div>
+            <div class="contain">
+                <div class="question ">
+                    <h4> <strong>Question:</strong> In which college are you studying?</h4>
+                    <i class="fas fa-chevron-down" ></i>
+                </div>
+                <div class="answer">
+                    <h5><strong>Answer:</strong> I'm studying at vhnsnc college at virudhunagar,Tamilnadu.</h5>
+                </div>  
+            </div>
+        </div>
+    </section>
+    <section id="footer">
+
+    </div>
+    <div class="row">
+      <div id="success">
+        <i class="far fa-check-circle"></i>
+        <h2>Your message has been received successfully</h2>
+        <h4 id="user-name"></h4>
+        <button id="ok">Continue</button>
+      </div>
+      <div class="col-lg-6 one">
+        <img src="images/illustration-woman-online-desktop.svg" id="img1" alt="">
+        <img src="images/illustration-box-desktop.svg" alt="" id="img2" >
+      </div>
+      <div class="col-lg-6 second" >
+        <h1>Contact us</h1>
+        <form >
+          <label id="l-name">Name</label><br>
+          <input required type="text" id="name"><br>
+          <label id="l-mail">Email</label><br>
+          <input type="email" required id="mail"><br>
+          <label for="">Message</label><br>
+          <textarea id="msg" cols="30" required rows="5"></textarea>
+          <button id="new-btn" type="submit">Send Message</button>
+        </form>
+      </div>
+    </div>
+    <h2 class="end">Stay connected with me</h2>
+    <div class="div-icon">
+      <a href="" target="_blank"><i class="fab fa-instagram"></i></a> 
+      <a href="" target="_blank"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://github.com/GokuVijay" target="_blank"><i class="fab fa-github"></i></a>
+    </div>
+    <h6>© Copyright 2021 VJRahavan</h6>
+  </section>
+    <script src="script.js"></script>
+</body>
+</html>
